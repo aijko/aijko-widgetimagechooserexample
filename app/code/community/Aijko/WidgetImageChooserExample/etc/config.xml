@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aijko_WidgetImageChooserExample>
+            <version>0.1.0</version>
+        </Aijko_WidgetImageChooserExample>
+    </modules>
+    <global>
+        <blocks>
+            <widgetimagechooser_example>
+                <class>Aijko_WidgetImageChooserExample_Block</class>
+            </widgetimagechooser_example>
+        </blocks>
+        <helpers>
+            <widgetimagechooser_example>
+                <class>Aijko_WidgetImageChooserExample_Helper</class>
+            </widgetimagechooser_example>
+        </helpers>
+    </global>
+</config>

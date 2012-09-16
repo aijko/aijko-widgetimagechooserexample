@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<widgets>
+    <sample_teaser type="widgetimagechooser_example/widget_teaser" translate="label description" module="widgetimagechooser_example">
+        <name>Sample Teaser</name>
+        <parameters>
+            <title>
+                <label>Title</label>
+                <required>1</required>
+                <visible>1</visible>
+                <type>text</type>
+                <sort_order>10</sort_order>
+            </title>
+            <text>
+                <label>Text</label>
+                <required>1</required>
+                <visible>1</visible>
+                <type>textarea</type>
+                <sort_order>20</sort_order>
+            </text>
+            <image>
+                <label>Image</label>
+                <required>1</required>
+                <visible>1</visible>
+                <type>widgetimagechooser/chooser</type>
+                <sort_order>30</sort_order>
+            </image>
+        </parameters>
+    </sample_teaser>
+</widgets>
